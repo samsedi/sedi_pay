@@ -75,7 +75,7 @@ class PasscodeView extends ConsumerWidget {
               if (state.isLoading)
                 const CircularProgressIndicator()
               else
-                const SizedBox(height: 36), // Placeholder to prevent jump
+                const SizedBox(height: 36),
               const Spacer(flex: 2),
               PasscodeKeypad(
                 onDigitPressed: (digit) {
